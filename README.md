@@ -3,6 +3,33 @@ HARSHA MASANDRAPALYA VANARAJAIAH
 VEDANT VENKATESH YELSANGIKAR
 KAVYA TOLETY
 
+## The Research Paper Source : https://aclanthology.org/2023.emnlp-main.810/
+
+## Citation : 
+@inproceedings{chen-etal-2023-token,
+    title = "Token Prediction as Implicit Classification to Identify {LLM}-Generated Text",
+    author = "Chen, Yutian  and
+      Kang, Hao  and
+      Zhai, Vivian  and
+      Li, Liangze  and
+      Singh, Rita  and
+      Raj, Bhiksha",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.810",
+    doi = "10.18653/v1/2023.emnlp-main.810",
+    pages = "13112--13120",
+    abstract = "This paper introduces a novel approach for identifying the possible large language models (LLMs) involved in text generation. Instead of adding an additional classification layer to a base LM, we reframe the classification task as a next-token prediction task and directly fine-tune the base LM to perform it. We utilize the Text-to-Text Transfer Transformer (T5) model as the backbone for our experiments. We compared our approach to the more direct approach of utilizing hidden states for classification. Evaluation shows the exceptional performance of our method in the text classification task, highlighting its simplicity and efficiency. Furthermore, interpretability studies on the features extracted by our model reveal its ability to differentiate distinctive writing styles among various LLMs even in the absence of an explicit classifier. We also collected a dataset named OpenLLMText, containing approximately 340k text samples from human and LLMs, including GPT3.5, PaLM, LLaMA, and GPT2.",
+}
+
+## Overview :  
+We have Replicated the original paper "Token Prediction as Implicit Classification to Identify LLM-Generated Text" for the CS678 Final project, classof Spring 2024
 
 ## Requirement
 
