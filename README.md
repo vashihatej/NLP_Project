@@ -1,7 +1,7 @@
 ## Group Members:
-HARSHA MASANDRAPALYA VANARAJAIAH</hr>
-VEDANT VENKATESH YELSANGIKAR</hr>
-KAVYA TOLETY
+- HARSHA MASANDRAPALYA VANARAJAIAH</hr>
+- VEDANT VENKATESH YELSANGIKAR</hr>
+- KAVYA TOLETY
 
 ## The Original Research Paper Source : https://aclanthology.org/2023.emnlp-main.810/
 
