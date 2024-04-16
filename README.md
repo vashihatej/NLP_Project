@@ -29,7 +29,7 @@
 }
 
 ## Overview :  
-We have Replicated the original paper "Token Prediction as Implicit Classification to Identify LLM-Generated Text" for the CS678 Final project, classof Spring 2024
+We have Replicated the original paper "Token Prediction as Implicit Classification to Identify LLM-Generated Text" for the CS678 Final project, class of Spring 2024
 
 ## Requirement
 
