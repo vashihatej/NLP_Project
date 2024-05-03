@@ -9,11 +9,8 @@
 **/storage/
 result/cache/*.json
 
-# Dataset
-*.jsonl
-
 # Weight Files
-*.pt
+
 *.pickle
 *.pkl
 
