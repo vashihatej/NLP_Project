@@ -55,7 +55,7 @@ optimizer = optim.AdamW(
 task = wandb.init(
     name=config.id,
     project="llm-sentinel",
-    entity="deep-learner",
+    entity="harshavana",
 )
 
 wandb.save("detector/t5_sentinel/__init__.py")
