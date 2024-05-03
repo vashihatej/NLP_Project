@@ -46,12 +46,12 @@ Then, upload it to Google Drive. We used Google Colab to run this project, so yo
 2. To set the PYTHONPATH environment variable in Google Colab:
    import os
 
-# Set PYTHONPATH to include the project directory
+## Set PYTHONPATH to include the project directory
 
 project_path = "/content/drive/MyDrive/T5-Sentinel-public"
 os.environ['PYTHONPATH'] += f":{project_path}"
 
-# Optional: Print PYTHONPATH to verify the change
+## Optional: Print PYTHONPATH to verify the change
 
 print("PYTHONPATH:", os.environ['PYTHONPATH'])
 
