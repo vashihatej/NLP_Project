@@ -64,12 +64,13 @@ print("PYTHONPATH:", os.environ['PYTHONPATH'])
    3. `!python3 evaluator/interpret/sample_pca.py` to calculate the PCA analysis for hidden layers of the test subset
    4. `!python3 evaluator/plot/*.py` to generate plots of related metrics (confusion matrix, roc, det, etc.)
 
-**Note that python files are in module**, so to use `./evaluator/calc/calc_accuracy.py`, you need to run `python3 -m evaluator.calc.calc_accuracy`.
+**Note **, These commands are already been already excuted and all the required datasets and the saved model points have been downloaded to their respective path. And the evaluation cammands like !python3 evaluator/calc/calc_accuracy.py has been exexuted and you can observe the outputs we got from these comands in our notebook at the following link: project.ipynb (https://github.com/vashihatej/NLP_Project/blob/main/project.ipynb) and the results for the following commands like confusion matrix and pca graphs, and analysis of dataset plots are all saved at the location (https://github.com/vashihatej/NLP_Project/tree/main/result/t5_sentinel)
+
 
 ## Training :
 
     1. `To Train the t5_sentienl model` - !python3 detector/t5_sentinel/_main_.py
     2. `To Train the t5_hidden model`- !python3 detector/t5_hidden/_main_.py
 
-NOTE : When executing the training command, authentication through Wandb is required. Choose option 2 to indicate that you have an account, and then input the following API value - b0a6fecc14383f64f17b5bbd81acc18b7d864c55 to initiate model training.
+**NOTE **: When executing the training command, authentication through Wandb is required. Choose option 2 to indicate that you have an account, and then input the following API value - b0a6fecc14383f64f17b5bbd81acc18b7d864c55 to initiate model training.
 You can find the Python notebook for reference at the following link: project.ipynb (https://github.com/vashihatej/NLP_Project/blob/main/project.ipynb)
